@@ -1,4 +1,4 @@
-package io.dbc.github.feedup;
+package io.dbc.github.feedup.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

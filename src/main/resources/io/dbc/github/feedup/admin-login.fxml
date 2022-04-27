@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="476.0" prefWidth="602.0"
+            style="-fx-background-color: light blue;" xmlns="http://javafx.com/javafx/16"
+            fx:controller="io.dbc.github.feedup.controller.AdminLoginController">
+   <effect>
+      <Blend/>
+   </effect>
+   <DialogPane headerText="Login Admin Portal" layoutX="263.0" layoutY="65.0" minWidth="-Infinity" prefHeight="45.0"
+               prefWidth="118.0"/>
+   <Button layoutX="225.0" layoutY="287.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="192.0"
+           style="-fx-background-color: green;" text="Login"/>
+   <PasswordField layoutX="225.0" layoutY="200.0" prefHeight="26.0" prefWidth="192.0" promptText="password"/>
+   <BorderPane layoutX="189.0" layoutY="100.0" prefHeight="10.0" prefWidth="0.0"/>
+   <PasswordField layoutX="225.0" layoutY="145.0" prefHeight="26.0" prefWidth="192.0" promptText="usename"/>
+   <AnchorPane layoutX="-11.0" layoutY="59.0" prefHeight="1.0" prefWidth="2.0">
+      <ImageView fitHeight="1.0" fitWidth="27.0" layoutX="-4.0" layoutY="-1.0" pickOnBounds="true"
+                 preserveRatio="true"/>
+   </AnchorPane>
+   <Label layoutX="161.0" layoutY="149.0" text="Username"/>
+   <Label layoutX="161.0" layoutY="204.0" text="Password"/>
+   <ImageView fitHeight="1.0" fitWidth="2.0" pickOnBounds="true" preserveRatio="true"
+              style="-fx-opacity: light green;"/>
+   <Button layoutX="225.0" layoutY="338.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="192.0"
+           style="-fx-background-color: green;" text="Cancel"/>
+   <Label layoutX="198.0" layoutY="248.0" prefHeight="18.0" prefWidth="238.0"
+          text="              Invalid Login. Please try again"/>
+</AnchorPane>

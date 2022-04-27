@@ -1,4 +1,4 @@
-package model;
+package io.dbc.github.feedup.model;
 
 import java.util.Objects;
 
